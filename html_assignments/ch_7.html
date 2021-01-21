@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7</title>
+</head>
+<body>
+    <h1> Review Form</h1>
+    <form action="#">
+        <fieldset>
+            <legend>Your Details</legend>
+            <p>Name: <input type="text"name="Name"/></p>
+            <p>Email: <input type="text"name="Email"/></p>
+        </fieldset><br/>
+        <fieldset>
+            <legend>Your Review</legend>
+            <p>How did you hear about us? 
+                <select name="Funnel">
+                    <option value="google">Google</option>
+                    <option value="television">Television</option>
+                    <option value="SMS">SMS</option>
+                </select></p>
+            <p>Would you visit again?<br/>
+                <input type="radio" name="Option" checked/> Yes
+                <input type="radio" name="Option"/> No
+                <input type="radio"name="Option"/> Maybe
+            </p>
+        <p>Comments:</p>
+        <textarea name="Comments" rows="7" cols="50">Please enter your comments...</textarea>
+        <p><input type="checkbox"/>Sign me up for email updates</p>
+        <input type="submit" value="Submit Review"/>
+    </fieldset>
+    </form>
+</body>
+</html>

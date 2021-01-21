@@ -1,0 +1,28 @@
+div{
+    display: inline-block;
+    box-shadow: 5px 5px 5px 5px #777777;
+    margin-right: 30px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+
+
+}
+
+body{
+
+    text-align: center;
+    margin-top: 200px;
+}
+img{
+    width: 250px;
+    height: 125px;
+}
+p{
+    width: 240px;
+    padding: 2px, 2px, 2px, 2px;
+}
+
+input{
+    background-color: blueviolet;
+    color: white;
+}
