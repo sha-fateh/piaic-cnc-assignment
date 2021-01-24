@@ -1,0 +1,151 @@
+.topheader{
+    background-color: rgb(41, 39, 39);
+    height: 35px;
+    position: sticky;
+    z-index: 10;
+}
+#nav-bar{
+    position: sticky;
+    z-index: 10;
+
+}
+.bi {
+    color: gray;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.bi-telephone-fill{
+    color:rgb(121, 190, 16);
+}
+#callbtn{
+    text-align: right;
+    background-color: rgb(121, 190, 16);
+    border: none;
+}
+.carobtn{
+    color:black;
+    background-color: orange;
+    border-radius: 20px;
+}
+.formbtn{
+    color:black;
+    background-color: orange;
+    width:200px ;
+    height: 40px;
+}
+#np{
+    color:white;
+}
+.form p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    color:white;
+}
+span{
+    float: right;
+    color:white;
+    font-size: 15px;
+}
+#plogo{
+    width: 200px;
+    height: 80px;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+
+
+.carousel-item{
+    text-align: center;
+}
+.carousel{
+    background-color: rgb(121, 190, 16);
+    height: 400px;
+
+}
+.carousel-item{
+    margin-top: 100px;
+}
+.carousel-item p {
+    width: 500px;
+    margin-left: 400px;
+}
+.carousel-item h1, .carousel-item p{
+    color:honeydew;
+}
+p{
+    color:black;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+
+#whyus .bi{
+    font-size: 90px;
+}
+.wuselection p{
+    font-size: 12px;
+}
+#about{
+    background-color: rgb(211, 202, 202);
+}
+section{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.card{
+    display: inline-block;
+    margin-left: 25px;
+}
+.btn {
+    border:none;
+}
+.serbtn{
+    background-color: white;
+    color: rgb(121, 190, 16);
+}
+#portfolio{
+    background-color: rgb(66, 63, 63);
+}
+#reviews{
+    background-color: rgb(211, 202, 202);
+}
+.form{
+    background-color:rgb(121, 190, 16); 
+
+}
+.form .row{
+    margin-left: 10px;
+}
+#contactus p{
+    font-size: 10px;
+    color: grey;
+    text-align: center;
+}
+#contactus h6{
+    text-align: center;
+}
+#map-container-google-12{
+    text-align: center;
+}
+iframe{
+    width: 1000px;
+    height:400px;
+}
+footer{
+    background-color:rgb(121, 190, 16) ;
+    color:white;
+}
+footer a{
+    color: white;
+}
+footer i{
+    background-color: white;
+}
+.col{
+    padding-top: 20px;
+}
