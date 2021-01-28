@@ -11,8 +11,8 @@
 }
 .bi {
     color: gray;
-    font-size: 20px;
     padding-left: 10px;
+    font-size:25px;
 }
 .bi-telephone-fill{
     color:rgb(121, 190, 16);
@@ -148,4 +148,40 @@ footer i{
 }
 .col{
     padding-top: 20px;
+}
+
+.carousel-inner img{
+    width: 300px;
+    height: 250px;
+}
+
+#portfolio{
+    color: white;
+}
+#portfolio p{
+    color:blanchedalmond;
+    text-align: center;
+}
+#pills-tab li a{
+    color:blanchedalmond;
+}
+#pills-tab li a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#pills-tabContent{
+    text-align: center;
+}
+#pills-tabContent img{
+    height: 200px;
+    width: 200px;
+}
+#reviews{
+    text-align: center;
+}
+#reviews .bi{
+    font-size:50px;
+}
+#reviews p{
+    color:grey;
 }
