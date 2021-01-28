@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
  <link href="./index.css" rel="stylesheet" type="text/css"/>
  <link href="css-circular-prog-bar.css" rel="stylesheet">
+ <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
 
@@ -33,27 +36,27 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">WHY US</a>
+                    <a class="nav-link" href="#whyus">WHY US</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link" href="#about">ABOUT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">SERVICES</a>
+                    <a class="nav-link" href="#services">SERVICES</a>
                   </li><li class="nav-item">
-                    <a class="nav-link" href="#">PORTFOLIO</a>
+                    <a class="nav-link" href="#portfolio">PORTFOLIO</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">PROCESS</a>
+                    <a class="nav-link" href="#process">PROCESS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">REVIEWS</a>
+                    <a class="nav-link" href="#reviews">REVIEWS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">OUR SKILLS</a>
+                    <a class="nav-link" href="#ourskill">OUR SKILLS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT US</a>
+                    <a class="nav-link" href="#contactus">CONTACT US</a>
                   </li>
                 </ul>
               </div>
@@ -220,7 +223,42 @@
     </section>
     <section id="process">
       <h1>Our process</h1>
-
+      <div class="stepwizard">
+        <div class="stepwizard-row">
+            <div class="stepwizard-step">
+                <button type="button" class="btn btn-primary btn-circle">1</button>
+                
+                <p>REQUEST CALL</p>
+                <i class="bi bi-phone"></i>
+            </div>
+            <div class="stepwizard-step">
+                <button type="button" class="btn btn-primary btn-circle">2</button>
+                <p>CONSULTATION</p>
+                <i class="bi bi-chat-left-text"></i>
+            </div>
+            <div class="stepwizard-step">
+                <button type="button" class="btn btn-primary btn-circle" disabled="disabled">3</button>
+                <p>PLANNING</p>
+                <i class="bi bi-diagram-2"></i>
+            </div>
+            <div class="stepwizard-step">
+              <button type="button" class="btn btn-primary btn-circle" disabled="disabled">4</button>
+              <p>WORK PROGRESS</p>
+              <i class="bi bi-gear"></i>
+          </div> 
+          <div class="stepwizard-step">
+            <button type="button" class="btn btn-primary btn-circle" disabled="disabled">5</button>
+            <p>CORRECTING</p>
+            <i class="bi bi-pencil"></i>
+        </div> 
+        <div class="stepwizard-step">
+          <button type="button" class="btn btn-primary btn-circle" disabled="disabled">6</button>
+          <p>DELIVER</p>
+          <i class="bi bi-check2-square"></i>
+      </div> 
+        </div>
+    </div>
+    
     </section>
     <section id="reviews">
       <h1>People about us</h1>
@@ -252,6 +290,61 @@
     </section>
     <section id="ourskills">
       <h1>our skills</h1>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="progress blue">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">90%</div>
+                    
+                </div>
+                <h4>SEO</h4>
+            </div><div class="col-md-3 col-sm-6">
+              <div class="progress yellow">
+                
+                  <span class="progress-left">
+                      <span class="progress-bar"></span>
+                  </span>
+                  <span class="progress-right">
+                      <span class="progress-bar"></span>
+                  </span>
+                  <div class="progress-value">75%</div>
+              </div>
+              <h4>BRANDING</h4>
+          </div>
+            <div class="col-md-3 col-sm-6">
+              
+                <div class="progress blue">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">90%</div>
+                </div>
+                <h4>WEB</h4>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="progress green">
+                  <span class="progress-left">
+                      <span class="progress-bar"></span>
+                  </span>
+                  <span class="progress-right">
+                      <span class="progress-bar"></span>
+                  </span>
+                  <div class="progress-value">88%</div>
+              </div>
+              <h4>AI</h4>
+          </div>
+          
+        </div>
+    </div>
     
         <section class="form">
             <h1 id="np">start your new project</h1>
